@@ -1,0 +1,34 @@
+{
+  "name": "cilsy-simple-todo",
+  "version": "1.0.0",
+  "description": "Simple tutorial backend To Do List - Cilsy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haromy/cilsy-simple-todo.git"
+  },
+  "author": "Fariz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haromy/cilsy-simple-todo/issues"
+  },
+  "homepage": "https://github.com/haromy/cilsy-simple-todo#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
